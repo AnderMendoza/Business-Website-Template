@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary meta tags -->
+    <title>Website Template</title>
+    <meta name="title" content="website template">
+    <meta name="description" content="Business website template">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="#" type="image">
+
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Preload images -->
+    <link rel="preload" as="image" href="./assets/img/background.png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <!-- Insert business logos -->
+                <img src="#" width="104" height="0" alt="logo" class="logo-light">
+                <img src="#" width="104" height="0" alt="logo" class="logo-dark">
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <!-- Insert business logo -->
+                        <img src="#" width="104" height="0" alt="logo">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="navbar-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#us" class="navbar-link">About Us</a>
+                    </li>
+                </ul>
+                <div class="wrapper">
+                    <!-- Insert business email -->
+                    <a href="#" class="contact-link">example@company.com</a>
+                    <!-- Insert phone number -->
+                    <a href="tel:#" class="contact-link">67234952</a>
+                </div>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#footer" class="btn btn-primary">Contact</a>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+
+            <!--HOME -->
+            <section class="section home has-bg-image" aria-label="home"
+                style="background-image: url('./assets/img/background.png')" id="home">
+                <div class="container">
+                    <div class="home-content">
+                        <h1 class="h1 home-title">Title.</h1>
+                        <p class="home-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nihil veniam asperiores amet
+                            ipsam. Harum laboriosam eum nemo iusto doloremque. Delectus expedita modi, reprehenderit.
+                        </p>
+                        <div class="btn-wrapper">
+                            <a href="#services" class="btn btn-primary">Explore</a>
+                            <a href="#footer" class="btn btn-outline">Contact Us</a>
+                        </div>
+                    </div>
+
+                    <div class="home-slider" data-slider>
+                        <div class="slider-inner">
+                            <ul class="slider-container" data-slider-container>
+                                <li class="slider-item">
+                                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                                        <img src="#" width="575" height="550" alt="imagen1" class="img-cover">
+                                    </figure>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="home-card">
+                                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                                            <img src="#" width="575" height="550" alt="imagen2" class="img-cover">
+                                        </figure>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+
+                                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                                        <img src="#" width="575" height="550" alt="imagen3" class="img-cover">
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                            <ion-icon name="arrow-back"></ion-icon>
+                        </button>
+                        <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+                            <ion-icon name="arrow-forward"></ion-icon>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section class="section service" aria-labelledby="service-label" id="services">
+                <div class="container">
+                    <p class="section-subtitle" id="service-label">
+                        OUR SERVICES
+                    </p>
+                    <h2 class="h2 section-title">Title</h2>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Subtitle</h3>
+                                <p class="card-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Subtitle</h3>
+                                <p class="card-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Subtitle</h3>
+                                <p class="card-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                                </div>
+                                <h3 class="h4 card-title">Subtitle</h3>
+                                <p class="card-box">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- INFORMATION -->
+            <section class="about" aria-labelledby="about-label" id="us">
+                <div class="container">
+                    <figure class="about-banner">
+                        <img src="./assets/imG/about-banner.png" width="800" height="580" loading="lazy"
+                            alt="about banner" class="w-100">
+                    </figure>
+                    <div class="about-content">
+                        <p class="section-subtitle" id="about-label">¿WHY CHOOSE US?</p>
+                        <h2 class="h2 section-title">
+                            Title
+                        </h2>
+                        <ul>
+                            <li class="about-item">
+                                <div class="accordion-card expanded" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true"
+                                                class="down"></ion-icon>
+
+                                            <spna class="span h5">Subtitle
+                                            </spna>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illum enim
+                                        repudiandae, saepe obcaecati harum, illo sint sit ad facilis laborum
+                                        reprehenderit perferendis necessitatibus architecto magnam iusto assumenda vel
+                                        doloremque!.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true"
+                                                class="down"></ion-icon>
+
+                                            <spna class="span h5">Subtitle</spna>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus earum facilis
+                                        laboriosam excepturi maiores vero consequuntur, dolorum quae qui repudiandae
+                                        sunt blanditiis, fugiat officiis consequatur, similique harum ab dolore?
+                                        Recusandae!.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <div class="accordion-card" data-accordion>
+                                    <h3 class="card-title">
+                                        <button class="accordion-btn" data-accordion-btn>
+                                            <ion-icon name="chevron-down-outline" aria-hidden="true"
+                                                class="down"></ion-icon>
+
+                                            <spna class="span h5">Subtitle</spna>
+                                        </button>
+                                    </h3>
+                                    <p class="accordion-content">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quos possimus,
+                                        enim sunt iure adipisci, minus ab at cum commodi similique doloremque quaerat id
+                                        officia iste maxime repudiandae odit? Vitae.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <section class="cta" aria-label="call to action">
+        <div class="container">
+            <h2 class="h2 section-title">
+                Title
+            </h2>
+            <!-- Insert business email -->
+            <a href="mailto:#" class="btn btn-primary"> Contact us through
+                <br>example@company.com</a>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container grid-list">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="#" width="74" height="24" alt="logo">
+                </a>
+                <p class="footer-text">
+                    &copy; 2024 All rights <br>reserved by company name.
+                </p>
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Services</p>
+                </li>
+                <li>
+                    <address class="footer-text">
+                        Text
+                    </address>
+                </li>
+                <li>
+                    <address class="footer-text">
+                        Text
+                    </address>
+                </li>
+            </ul>
+            <ul class="footer-list">
+                <li>
+                    <p class="h4 footer-list-title">Direction</p>
+                </li>
+                <li>
+                    <address class="footer-text">
+                        Text
+                    </address>
+                </li>
+                <li>
+                    <address class="footer-text">
+                        Text
+                    </address>
+                </li>
+            </ul>
+            <div class="footer-list">
+                <ul class="footer-list">
+                    <li>
+                        <p class="h4 footer-list-title">Contact Us</p>
+                    </li>
+                    <li>
+                        <!-- Insert business email -->
+                        <a href="mailto:#" class="footer-link">example@company.com</a>
+                    </li>
+                    <li>
+                        <!-- Insert phone number -->
+                        <a href="tel:#" class="footer-link">7234952</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link js -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
